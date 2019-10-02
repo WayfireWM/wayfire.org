@@ -78,12 +78,15 @@ the example config file or in WCM.
 1. A lot of internal restructuring, and documentation of public APIs
 2. Improvements for games - relative-pointers and pointer-constraints protocols
 3. Much better support for virtual keyboards and touch devices (including Stylus/Tablet tool support)
+4. Multiple bug and crash fixes in core and the plugins, check the closed issues for more details.
 
 There are also substantial changes outside of Wayfire itself:
 
 1. Migration of desktop clients towards layer-shell, so that they can also work on other compositors like Sway.
 This includes wf-background, wf-panel, wf-dock and wf-osk.
-2. Support for the command and autostart plugins in WCM (Wayfire Config Manager), added by soreau
-3. Icons in WCM were updated by coz_
+2. Support for the command and autostart plugins in WCM (Wayfire Config Manager), added by soreau.
+3. Icons in WCM were updated by coz_.
+4. Wayfire is being packaged for multiple distros like [Fedora](https://src.fedoraproject.org/rpms/wayfire), [Void Linux](https://github.com/void-linux/void-packages/tree/master/srcpkgs/wayfire) and [Arch Linux](https://aur.archlinux.org/packages/wayfire-git).
 
-In the end, I'd like to thank all the people mentioned in this blog and to all the people who have tested Wayfire!
+All in all, Wayfire has already progressed beyond my initial expectations, and continues to grow. A big thanks to all the people who have contributed and who have spent hours to help fix the bugs found along the way!
+
