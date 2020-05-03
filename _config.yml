@@ -1,2 +1,7 @@
 exclude:
   - _sass/bootstrap/
+plugins:
+  - jekyll-feed
+title: Wayfire blog
+description: The blog of the Wayfire wayland window manager
+author: Wayfire developers
